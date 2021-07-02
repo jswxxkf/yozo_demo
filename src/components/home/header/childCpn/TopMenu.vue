@@ -16,7 +16,9 @@
       </ul>
       <span class="manage-center">管理中心</span>
       <div class="logo">
-        <img src="../../../../assets/img/logo.jpg" alt="logo of yozo">
+        <i>
+          <img src="../../../../assets/img/logo.jpg" alt="">
+        </i>
       </div>
     </div>
   </div>
@@ -57,7 +59,7 @@ export default {
   text-align: center;
   background-color: rgba(255, 255, 255, 0);
   color: #ffffff;
-  transition: background-color, color 1s ease;
+  transition: background-color .7s ease, color .7s ease;
 }
 
 .container {
@@ -70,6 +72,7 @@ export default {
 }
 
 .container .title {
+  cursor: pointer;
   margin: 0;
   font-size: 0.26rem;
   width: 1.5625rem;
@@ -86,26 +89,43 @@ export default {
   height: 0.667rem;
   line-height: 0.667rem;
   cursor: pointer;
-  transition: border-bottom-color, color .5s ease;
+  transition: border-bottom-color .7s ease, color .7s ease;
 }
 
+/* 方式1：事件监听添加活动类 */
 .active-li {
-  border-bottom: 2px solid #0081ff;
+  border-bottom: 4px solid #0081ff;
   color: #0081ff;
 }
 
 .container .manage-center {
-  width: 2.083rem;
+  cursor: pointer;
+  width: 1.042rem;
   text-align: right;
+  transition: color .7s ease;
+}
+
+/* 方式2：利用伪类 */
+.container .manage-center:hover {
+  color: #0081ff;
 }
 
 .container .logo {
   width: 1.042rem;
 }
 
-.container img {
-  width: 0.521rem;
-  height: 0.521rem;
-  vertical-align: middle;
+.container .logo i {
+  display: inline-block;
+  width: 0.4rem;
+  height: 0.4rem;
+  transform: translate(0, 25%);
+  border-radius: 50%;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.container .logo i img {
+  width: 100%;
+  height: 100%;
 }
 </style>
