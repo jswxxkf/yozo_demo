@@ -2,9 +2,9 @@
   <!-- 遮罩层 -->
   <div class="cover">
     <div class="operation">
-      <span>免费试用</span>
+      <a href="javascript:">免费试用</a>
       <span class="sep">|</span>
-      <span>查看详情</span>
+      <a href="javascript:">查看详情</a>
     </div>
   </div>
 </template>
@@ -38,7 +38,13 @@ export default {
   color: #ffffff;
   font-size: 0.1875rem;
 }
-.sep{
+
+.operation a {
+  color: #ffffff;
+  font-size: 0.1875rem;
+}
+
+.sep {
   margin: 0 0.5rem;
 }
 </style>

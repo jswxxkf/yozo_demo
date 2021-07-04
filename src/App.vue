@@ -2,6 +2,7 @@
   <div id="app">
     <my-header/>
     <platform/>
+    <scene/>
     <process/>
     <client/>
     <moment/>
@@ -21,9 +22,11 @@ import Process from "./components/home/process/Process";
 import Client from "./components/home/client/Client";
 import Moment from "./components/home/moment/Moment";
 import MyFooter from "./components/home/footer/MyFooter";
+import Scene from "./components/home/scene/Scene";
 
 export default {
   components: {
+    Scene,
     MyFooter,
     Moment,
     Client,

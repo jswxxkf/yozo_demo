@@ -2,7 +2,7 @@
   <div class="moment-right">
     <div class="top clear-fix">
       <span class="fl">云服务动态</span>
-      <span class="fr more"><a href="#">查看更多&nbsp;&gt;</a></span>
+      <span class="fr more"><a href="javascript:">查看更多&nbsp;&gt;</a></span>
     </div>
     <moment-right-item v-for="(item, index) in moments" :key="index">
       <div slot="title"><a href="#">{{ item.title }}</a></div>

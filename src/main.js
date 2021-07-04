@@ -3,7 +3,11 @@ import App from './App.vue'
 
 Vue.config.productionTip = false
 
+// event bus
+Vue.prototype.$bus = new Vue();
+
 setHtmlFontSize()
+
 // rem compatability
 function setHtmlFontSize() {
   let clientWidth = document.body.clientWidth || document.documentElement.clientWidth;

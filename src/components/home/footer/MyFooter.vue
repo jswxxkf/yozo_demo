@@ -3,19 +3,19 @@
     <div class="container">
       <dl>
         <dt>开发文档</dt>
-        <dd><a href="#">快速入门</a></dd>
-        <dd><a href="#">文档云预览</a></dd>
-        <dd><a href="#">文档云编辑</a></dd>
-        <dd><a href="#">文档格式转换</a></dd>
+        <dd><a href="javascript:">快速入门</a></dd>
+        <dd><a href="javascript:">文档云预览</a></dd>
+        <dd><a href="javascript:">文档云编辑</a></dd>
+        <dd><a href="javascript:">文档格式转换</a></dd>
       </dl>
       <dl>
         <dt>更多服务</dt>
-        <dd><a href="#">永中DCS文档预览</a></dd>
-        <dd><a href="#">永中Web Office在线编辑</a></dd>
-        <dd><a href="#">永中Office</a></dd>
-        <dd><a href="#">永中优云</a></dd>
-        <dd><a href="#">柚墨</a></dd>
-        <dd><a href="#">永中PDF工具集</a></dd>
+        <dd><a href="javascript:">永中DCS文档预览</a></dd>
+        <dd><a href="javascript:">永中Web Office在线编辑</a></dd>
+        <dd><a href="javascript:">永中Office</a></dd>
+        <dd><a href="javascript:">永中优云</a></dd>
+        <dd><a href="javascript:">柚墨</a></dd>
+        <dd><a href="javascript:">永中PDF工具集</a></dd>
       </dl>
       <dl>
         <dt>联系我们</dt>

@@ -3,14 +3,14 @@
     <div class="container">
       <div class="fl">
         版权所有：永中软件股份有限公司 All Rights Reserved.&nbsp;&nbsp;
-        <a href="#">苏 ICP 备 10095690号-9</a>
+        <a href="javascript:">苏 ICP 备 10095690号-9</a>
       </div>
       <div class="fr">
-        <a href="#">隐私条款</a>
+        <a href="javascript:">隐私条款</a>
         <span class="sep">|</span>
-        <a href="#">知识产权声明</a>
+        <a href="javascript:">知识产权声明</a>
         <span class="sep">|</span>
-        <a href="#">用户协议</a>
+        <a href="javascript:">用户协议</a>
       </div>
     </div>
   </div>
