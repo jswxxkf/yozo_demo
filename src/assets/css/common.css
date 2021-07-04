@@ -2,3 +2,23 @@
   width: 12.5rem;
   margin: 0 auto;
 }
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.clear-fix {
+  *zoom: 1
+}
+
+.clear-fix::after {
+  display: block;
+  content: '';
+  visibility: hidden;
+  height: 0;
+  clear: both;
+}

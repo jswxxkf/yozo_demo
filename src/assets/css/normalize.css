@@ -17,7 +17,16 @@ ul {
   list-style: none;
 }
 
+button,
+input {
+  outline: none;
+}
+
 ul,
+dl,
+dt,
+dd,
+ol,
 li,
 div,
 p,
@@ -25,6 +34,18 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: #000000;
+}
+
+a:visited {
+  color: #000000;
 }
 
 /* Sections
@@ -178,7 +199,7 @@ select,
 textarea {
   font-family: inherit; /* 1 */
   font-size: 100%; /* 1 */
-  line-height: 1.15; /* 1 */
+  /*line-height: 1.15; !* 1 *!*/
   margin: 0; /* 2 */
 }
 

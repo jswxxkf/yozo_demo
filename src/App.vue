@@ -2,7 +2,11 @@
   <div id="app">
     <my-header/>
     <platform/>
-    <fixed-logo :is-back-to-top-shown="isBackToTopShown"/>
+    <process/>
+    <client/>
+    <moment/>
+    <my-footer/>
+    <fixed-aside :is-back-to-top-shown="isBackToTopShown"/>
     <!-- hack -->
     <top-menu class="hack-top-menu" v-if="isBackToTopShown"/>
   </div>
@@ -11,13 +15,21 @@
 <script>
 import MyHeader from "./components/home/header/MyHeader";
 import Platform from "./components/home/platform/Platform";
-import FixedLogo from "./components/home/FixedLogo";
 import TopMenu from "./components/home/header/childCpn/TopMenu";
+import FixedAside from "./components/home/FixedAside";
+import Process from "./components/home/process/Process";
+import Client from "./components/home/client/Client";
+import Moment from "./components/home/moment/Moment";
+import MyFooter from "./components/home/footer/MyFooter";
 
 export default {
   components: {
+    MyFooter,
+    Moment,
+    Client,
+    Process,
+    FixedAside,
     TopMenu,
-    FixedLogo,
     Platform,
     MyHeader
   },

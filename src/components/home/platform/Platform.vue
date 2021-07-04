@@ -58,11 +58,12 @@ export default {
 
 <style scoped>
 .platform {
+  padding: 0.65rem 0;
   text-align: center;
 }
 
 .platform-intro {
-  padding: 0.521rem 0;
+  margin-bottom: 0.521rem;
 }
 
 .platform-intro .platform-title {

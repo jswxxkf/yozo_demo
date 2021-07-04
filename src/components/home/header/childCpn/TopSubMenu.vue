@@ -39,7 +39,11 @@ export default {
   cursor: pointer;
 }
 
+.top-menu-list li {
+  transition: background-color .5s ease;
+}
+
 .top-menu-list li:hover {
-  background-color: #eeeeee;
+  background-color: #cccccc;
 }
 </style>

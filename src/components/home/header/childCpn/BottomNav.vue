@@ -58,5 +58,6 @@ export default {
 .ad-title {
   height: 0.5rem;
   line-height: 0.5rem;
+  cursor: pointer;
 }
 </style>

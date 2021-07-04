@@ -12,7 +12,7 @@
 
 <script>
 export default {
-  name: "FixedLogo",
+  name: "FixedAside",
   props: {
     isBackToTopShown: {
       type: Boolean,
@@ -33,7 +33,7 @@ export default {
 <style scoped>
 .fixed-logo {
   position: fixed;
-  top: 3rem;
+  top: 6rem;
   right: 0.25rem;
   z-index: 999;
 }

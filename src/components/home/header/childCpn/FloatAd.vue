@@ -59,12 +59,14 @@ export default {
 
 button {
   margin-right: 0.208rem;
-  font-weight: 700;
+  font-weight: 500;
+  font-size: 0.208rem;
   outline: 0;
   cursor: pointer;
   width: 1.5625rem;
   height: 0.521rem;
   border-radius: 0.104rem;
+  border-width: 0;
   background-image: linear-gradient(to left, #dcaf84, #f3891d);
 }
 

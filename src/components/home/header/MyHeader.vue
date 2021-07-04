@@ -117,6 +117,7 @@ export default {
   height: 0.052rem;
   background-color: #ffffff;
   opacity: .75;
+  cursor: pointer;
   transition: width 1s ease;
 }
 
@@ -133,7 +134,6 @@ export default {
   right: 0;
   bottom: 0.5rem;
   height: 0.521rem;
-  cursor: pointer;
   text-align: center;
 }
 </style>
